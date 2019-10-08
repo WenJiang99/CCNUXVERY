@@ -9,7 +9,7 @@
 
 ## Start
 - 克隆仓库到本地目录
-- 打开仓库根目录，执行 git branch develop 命令切换到develop分支
+- 打开仓库根目录，执行 git checkout develop 命令切换到develop分支
 - 进入到对应的Module-xxx 目录查看对应的学习任务资料
 
 
