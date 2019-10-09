@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IFRAME TEST</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .root {
+            width: 100%;
+            height: 700px;
+            background-color: beige;
+
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .iframe {
+            margin: 0 auto;
+            background-color: lightgreen;
+            border: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+            <div class="main-content">
+                <h1>IFRAME TEST</h1>
+                <p>The Baidu.com shows as follow:</p>
+            </div>
+            <iframe src="https://www.baidu.com" frameborder="0" width="500px" height="500px" class="iframe"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>

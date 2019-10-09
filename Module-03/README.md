@@ -14,3 +14,15 @@
 ## PRE-M03-L04 初始HTML
 - [任务链接](https://www.zybuluo.com/Simpleaaa/note/1617765)
 - [任务提交](./pre-04.md)
+
+## PRE-M03-L05 文本内容
+- [任务链接](https://www.zybuluo.com/Simpleaaa/note/1617779)
+- [任务提交](./pre-05.md)
+
+## PRE-M03-L06 多媒体和内嵌内容
+- [任务链接](https://www.zybuluo.com/Simpleaaa/note/1617784)
+- [任务提交](./pre-06.md)
+
+## PRE-M03-L07 表格内容
+- [任务链接](https://www.zybuluo.com/Simpleaaa/note/1617796)
+- [任务提交](./pre-07.md)
