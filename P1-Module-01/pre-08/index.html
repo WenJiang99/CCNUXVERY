@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORM TEST</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form * {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+    }
+
+    label {
+      width: 80px;
+    }
+
+    input {
+      height: 24px;
+      border: 2px lightgray;
+      border-radius: 5px;
+      background-color: #EEE;
+      /* margin-left: 20px; */
+    }
+
+    .input-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    input[type=radio] {
+      margin: auto 5px;
+    }
+
+    span {
+      color: red;
+      margin-top: 0;
+    }
+
+    button {
+      width: fit-content;
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+
+    button[type=submit] {
+      background-color: lightgreen;
+    }
+
+    button[type=reset] {
+      background-color: lightsalmon;
+    }
+    input:invalid {
+      /* background-color: rgb(252, 233, 237); */
+      border: rgb(248, 178, 190) solid 1px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="root">
+    <div class="container">
+      <form action="">
+        <legend>CreditCard Register</legend>
+        <div class="input-phone">
+          <label for="phone">Phone<span>*</span></label>
+          <input type="text" id="phone" placeholder="your phone" pattern="[0-9]{11}" autofocus required>
+        </div>
+
+        <div class="input-address">
+          <label for="address">Address</label>
+          <input type="text" >
+        </div>
+        <div class="input-name">
+          <label for="name">Name<span>*</span></label>
+          <input type="text" id="name" pattern="[a-zA-Z0-9_]{3,10}" required >
+        </div>
+        <div class="input-age">
+          <label for="name">Age</label>
+          <input type="text" id="age">
+        </div>
+        <div class="input-password">
+          <label for="password">Password<span>*</span></label>
+          <input type="password" required>
+        </div>
+        <div class="input-sex">
+          <label for="sex">Sex<span>*</span></label>
+          <label for="male" class="label-sex">
+            <input type="radio" name="sex" value="0" id="" checked>
+            male
+          </label>
+
+          <label for="female" class="label-sex">
+            <input type="radio" name="sex" value="1" id="">
+            female
+          </label>
+        </div>
+        <div class="input-button">
+          <button type="submit">submit</button>
+          <button type="reset" name="" id="">reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
