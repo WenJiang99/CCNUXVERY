@@ -1,0 +1,44 @@
+/* 設置基本樣式，方便展示/對比  */
+
+body, html {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body * {
+  width: 50%;
+  margin-top: 10px;
+  border: black solid 1px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* 帶有title的div,背景為粉色 */
+
+div[title] {
+  background-color: deeppink;
+}
+
+/* title包含demo的div，背景為黃色 */
+
+div[title*=demo] {
+  background-color: yellow;
+}
+
+/* title為demo的div，背景為棕色 */
+
+/* 把title為demo的樣式放在title包含demo的後面，否則title包含demo的樣式會覆蓋title=demo的樣式 */
+
+div[title=demo] {
+  background-color: brown;
+}
+
+/* title=zh或者是title以zh開頭的div，背景為綠色 */
+
+div[title=zh], div[title^=zh] {
+  background-color: darkgreen;
+}
