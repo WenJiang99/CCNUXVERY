@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS STYLE</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    p.normal {
+      font-weight: 500;
+      font-size: 2em;
+
+    }
+
+    p.caps {
+      font-weight: 500;
+      font-size: 2em;
+      font-variant-caps: small-caps;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="root">
+    <p class="normal">This is a paragraph.</p>
+    <p class="caps">This is a paragraph.</p>
+  </div>
+
+  <div class="test" style="font-size: 16px;">
+    basis font 24px : aaa
+    <div class="aaa" style="font-size: 2em;">
+      first font 2em : aaa
+      <div class="bbb" style="font-size: 2em;">
+          second font 2em : aaa
+        <div class="ccc" style="font-size: 2em;">
+            third font 2em : aaa
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
