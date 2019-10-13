@@ -6,7 +6,7 @@
     h1--h6标签用于标记网页的标题，p标签用于标记段落，img标签用于标记图片......
 
 ## 编写index.HTML文档
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +31,7 @@
 
 
 ## 写一个HTML标签
-```
+```html
 <div style="font-size: 2em;color:red;">hello world</div>
 ```
 ![](pre-04/images/2.png)
