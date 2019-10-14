@@ -1,0 +1,34 @@
+html,body,.root {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.main {
+    flex: 1;
+    font-size: 2em;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: yellow;
+}
+.right {
+    flex: none;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    font-size: 2em;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: red;
+}
+
+
