@@ -14,11 +14,13 @@
 </body>
 <!-- 内部引用 -->
 <script>
-  var text = document.createTextNode("這是來自内部脚本添加的内容")
-  var e = document.createElement("h1")
-  e.appendChild(text)
-  var rootDiv = document.getElementById("root")
-  rootDiv.appendChild(e)
+  // var text = document.createTextNode("這是來自内部脚本添加的内容")
+  // var e = document.createElement("h1")
+  // e.appendChild(text)
+  // var rootDiv = document.getElementById("root")
+  // rootDiv.appendChild(e)
+  
+  document.write("hello world")
 </script>
 <!-- 外部引用 -->
 <script src="./index.js"></script>
