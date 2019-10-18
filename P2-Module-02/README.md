@@ -22,3 +22,8 @@
 ## P1-M2-L06 CSS布局
 - [任务链接](https://www.zybuluo.com/Simpleaaa/note/1620381)
 - [任务提交](./L-06.md)
+
+
+## P1-M2-L07 CSS调试
+- [任务链接](https://www.zybuluo.com/Simpleaaa/note/1620383)
+- [任务提交](./L-07.md)
