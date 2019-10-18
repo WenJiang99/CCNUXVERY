@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+</body>
+<!-- 内部引用 -->
+<script>
+  var text = document.createTextNode("這是來自内部脚本添加的内容")
+  var e = document.createElement("h1")
+  e.appendChild(text)
+  var rootDiv = document.getElementById("root")
+  rootDiv.appendChild(e)
+</script>
+<!-- 外部引用 -->
+<script src="./index.js"></script>
+
+</html>
