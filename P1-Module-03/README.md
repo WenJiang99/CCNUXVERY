@@ -14,3 +14,7 @@
 ## JavaScrip字符串
 - [任务链接](https://www.zybuluo.com/Simpleaaa/note/1622550)
 - [任务提交](./L-05.md)
+
+## JavaScrip数组
+- [任务链接](https://www.zybuluo.com/Simpleaaa/note/1623873)
+- [任务提交](./L-06.md)
