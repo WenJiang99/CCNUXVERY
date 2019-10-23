@@ -13,6 +13,10 @@
 - 打开仓库根目录，执行 git checkout develop 命令切换到develop分支
 - 进入到对应的Module-xxx 目录查看对应的学习任务资料
 
+## Scripts
+- 在项目的根目录下执行`npm run module moduleName` 快速创建一个moduleName目录，包含一个README.md文件
+- 在项目根目录下执行`npm run lesson moduleName lessName title` 快速在指定module下创建指定的lesson目录，同时更新Module的README文件   
+    目录中包含一个必选的README.md文件，其余文件如 HTML、css、js文件等可以在title参数后面传入对应的文件扩展名，脚本自动创建对应的index.ext文件，默认在HTML文件中添加了index.css的外链
 
 ## Contact / Suggestions 
 - You can send an Email to xxx to get connection
