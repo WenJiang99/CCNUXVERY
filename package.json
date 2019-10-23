@@ -1,0 +1,22 @@
+{
+  "name": "CCNUXVERY",
+  "version": "1.0.0",
+  "description": "```\r     本仓库主要用于存放校园社团学习的任务相关的各种资源    \r     仓库目录主要是按照每一星期的学习任务进行分类，每一星期作为一个目录 (Module-xxxx),Module-xxx目录内，每个lesson也会对应     \r     有一个markdown文档作为结果展示、说明   \r     相同的Module中的Lesson资料存放于同一个目录中，同时每个目录会带有一个README.md文件对目录进行说明\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lesson":"node scripts/lesson.js",
+    "module":"node scripts/module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WenJiang99/CCNUXVERY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WenJiang99/CCNUXVERY/issues"
+  },
+  "homepage": "https://github.com/WenJiang99/CCNUXVERY#readme"
+}
