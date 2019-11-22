@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lesson":"node scripts/lesson.js",
-    "module":"node scripts/module.js"
+    "module":"node scripts/module.js",
+    "setModule":"node scripts/defaultModule.js"
   },
   "repository": {
     "type": "git",
