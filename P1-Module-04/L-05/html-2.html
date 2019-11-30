@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>定时器示例</title>
+</head>
+
+<body>
+  <input type="text" id="result">
+  <input type="button" value="开始">
+  <input type="button" value="结束">
+
+</body>
+<script>
+  const buttonEls = document.getElementsByTagName("input")
+  console.log(buttonEls, 'eeee')
+  const inputArea = buttonEls[0]
+  let i = 0
+  let second = 0
+  let timer
+  while (i < buttonEls.length) {
+    console.log(buttonEls[i]["value"])
+
+    if (buttonEls[i]["value"] === "开始") {
+      buttonEls[i].onclick = function () {
+        second = 0
+        timer = setInterval(() => {
+          second++
+          inputArea["value"] = second
+        }, 1000)
+      }
+    } else if (buttonEls[i]["value"] === "结束") {
+      buttonEls[i].onclick = function () {
+        clearInterval(timer)
+        inputArea["value"] = second
+      }
+    }
+    i++
+  }
+</script>
+
+</html>
